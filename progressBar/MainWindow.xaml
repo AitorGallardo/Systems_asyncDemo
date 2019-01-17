@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="button1" Content="DoTask" HorizontalAlignment="Left" Margin="134,169,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click"/>
+        <ProgressBar x:Name="progressBar1" HorizontalAlignment="Left" Height="27" Margin="25,92,0,0" VerticalAlignment="Top" Width="330" RenderTransformOrigin="-0.516,0.637"/>
+        <Button x:Name="button2" Content="Download" HorizontalAlignment="Left" Margin="581,169,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.453,2.06" Click="Button2_Click"/>
+        <ProgressBar x:Name="progressBar2" HorizontalAlignment="Left" Height="27" Margin="444,92,0,0" VerticalAlignment="Top" Width="330"/>
+        <Button x:Name="button3" Content="Load File" HorizontalAlignment="Left" Margin="581,294,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.453,2.06" Click="Button3_Click"/>
+
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="41,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="194" Width="422"/>
+
     </Grid>
 </Window>
